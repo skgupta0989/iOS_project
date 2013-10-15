@@ -1,0 +1,18 @@
+http://i-software-developers.com/2013/01/13/multi-threading-in-ios-cancel-an-nsthread/
+
+https://developer.apple.com/library/ios/DOCUMENTATION/General/Conceptual/DevPedia-CocoaCore/Protocol.html
+
+
+
+
+
+####################################################################################################################
+
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/skgupta0989/iOS_project.git
+git push -u origin master

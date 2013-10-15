@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>
+</title>
+<script>
+function func()
+{
+	var element = document.createElement("input");
+	element.id="bt1"
+ 	element.type = "button";
+    	element.value = "Button1"; 
+    	element.name = "Button1"; 
+
+	var foo = document.getElementById("fooBar");
+
+	foo.appendChild(element);
+
+    	element.onclick = function() 
+	{ 
+		document.getElementById('bt1').style.visibility='hidden';
+		document.getElementById('bt').style.visibility='hidden';
+	        alert("blabla");
+	};
+
+   
+}
+</script>
+</head>
+<body onload=func()>
+<form id="fooBar" action="" method="" >
+
+</form>
+</body>
+</html

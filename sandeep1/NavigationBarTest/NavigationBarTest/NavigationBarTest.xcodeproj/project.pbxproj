@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC86149E17E1BFE900B4BF8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC86149D17E1BFE900B4BF8B /* UIKit.framework */; };
+		DC8614A017E1BFE900B4BF8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC86149F17E1BFE900B4BF8B /* Foundation.framework */; };
+		DC8614A217E1BFE900B4BF8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8614A117E1BFE900B4BF8B /* CoreGraphics.framework */; };
+		DC8614A817E1BFE900B4BF8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8614A617E1BFE900B4BF8B /* InfoPlist.strings */; };
+		DC8614AA17E1BFE900B4BF8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8614A917E1BFE900B4BF8B /* main.m */; };
+		DC8614AE17E1BFE900B4BF8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8614AD17E1BFE900B4BF8B /* AppDelegate.m */; };
+		DC8614BF17E1CAE400B4BF8B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8614BE17E1CAE400B4BF8B /* LoginViewController.m */; };
+		DC8614D217E1E5C800B4BF8B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8614D117E1E5C800B4BF8B /* MenuViewController.m */; };
+		DC8614D817E1EA4500B4BF8B /* PickerViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8614D717E1EA4500B4BF8B /* PickerViewcontroller.m */; };
+		DC8614DF17E1EB0700B4BF8B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8614DE17E1EB0600B4BF8B /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC86149917E1BFE900B4BF8B /* NavigationBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC86149D17E1BFE900B4BF8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC86149F17E1BFE900B4BF8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC8614A117E1BFE900B4BF8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC8614A517E1BFE900B4BF8B /* NavigationBarTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationBarTest-Info.plist"; sourceTree = "<group>"; };
+		DC8614A717E1BFE900B4BF8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC8614A917E1BFE900B4BF8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC8614AB17E1BFE900B4BF8B /* NavigationBarTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationBarTest-Prefix.pch"; sourceTree = "<group>"; };
+		DC8614AC17E1BFE900B4BF8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC8614AD17E1BFE900B4BF8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC8614BD17E1CAE400B4BF8B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DC8614BE17E1CAE400B4BF8B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DC8614D017E1E5C800B4BF8B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		DC8614D117E1E5C800B4BF8B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		DC8614D617E1EA4500B4BF8B /* PickerViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewcontroller.h; sourceTree = "<group>"; };
+		DC8614D717E1EA4500B4BF8B /* PickerViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewcontroller.m; sourceTree = "<group>"; };
+		DC8614DD17E1EB0600B4BF8B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DC8614DE17E1EB0600B4BF8B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC86149617E1BFE900B4BF8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC86149E17E1BFE900B4BF8B /* UIKit.framework in Frameworks */,
+				DC8614A017E1BFE900B4BF8B /* Foundation.framework in Frameworks */,
+				DC8614A217E1BFE900B4BF8B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC86148E17E1BFE800B4BF8B = {
+			isa = PBXGroup;
+			children = (
+				DC8614A317E1BFE900B4BF8B /* NavigationBarTest */,
+				DC86149C17E1BFE900B4BF8B /* Frameworks */,
+				DC86149A17E1BFE900B4BF8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC86149A17E1BFE900B4BF8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC86149917E1BFE900B4BF8B /* NavigationBarTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC86149C17E1BFE900B4BF8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC86149D17E1BFE900B4BF8B /* UIKit.framework */,
+				DC86149F17E1BFE900B4BF8B /* Foundation.framework */,
+				DC8614A117E1BFE900B4BF8B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8614A317E1BFE900B4BF8B /* NavigationBarTest */ = {
+			isa = PBXGroup;
+			children = (
+				DC8614AC17E1BFE900B4BF8B /* AppDelegate.h */,
+				DC8614AD17E1BFE900B4BF8B /* AppDelegate.m */,
+				DC8614A417E1BFE900B4BF8B /* Supporting Files */,
+				DC8614BD17E1CAE400B4BF8B /* LoginViewController.h */,
+				DC8614BE17E1CAE400B4BF8B /* LoginViewController.m */,
+				DC8614D017E1E5C800B4BF8B /* MenuViewController.h */,
+				DC8614D117E1E5C800B4BF8B /* MenuViewController.m */,
+				DC8614D617E1EA4500B4BF8B /* PickerViewcontroller.h */,
+				DC8614D717E1EA4500B4BF8B /* PickerViewcontroller.m */,
+				DC8614DD17E1EB0600B4BF8B /* TableViewController.h */,
+				DC8614DE17E1EB0600B4BF8B /* TableViewController.m */,
+			);
+			path = NavigationBarTest;
+			sourceTree = "<group>";
+		};
+		DC8614A417E1BFE900B4BF8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC8614A517E1BFE900B4BF8B /* NavigationBarTest-Info.plist */,
+				DC8614A617E1BFE900B4BF8B /* InfoPlist.strings */,
+				DC8614A917E1BFE900B4BF8B /* main.m */,
+				DC8614AB17E1BFE900B4BF8B /* NavigationBarTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC86149817E1BFE900B4BF8B /* NavigationBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8614B117E1BFE900B4BF8B /* Build configuration list for PBXNativeTarget "NavigationBarTest" */;
+			buildPhases = (
+				DC86149517E1BFE900B4BF8B /* Sources */,
+				DC86149617E1BFE900B4BF8B /* Frameworks */,
+				DC86149717E1BFE900B4BF8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationBarTest;
+			productName = NavigationBarTest;
+			productReference = DC86149917E1BFE900B4BF8B /* NavigationBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC86149017E1BFE800B4BF8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DC86149317E1BFE800B4BF8B /* Build configuration list for PBXProject "NavigationBarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC86148E17E1BFE800B4BF8B;
+			productRefGroup = DC86149A17E1BFE900B4BF8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC86149817E1BFE900B4BF8B /* NavigationBarTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC86149717E1BFE900B4BF8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8614A817E1BFE900B4BF8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC86149517E1BFE900B4BF8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8614AA17E1BFE900B4BF8B /* main.m in Sources */,
+				DC8614AE17E1BFE900B4BF8B /* AppDelegate.m in Sources */,
+				DC8614BF17E1CAE400B4BF8B /* LoginViewController.m in Sources */,
+				DC8614D217E1E5C800B4BF8B /* MenuViewController.m in Sources */,
+				DC8614D817E1EA4500B4BF8B /* PickerViewcontroller.m in Sources */,
+				DC8614DF17E1EB0700B4BF8B /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC8614A617E1BFE900B4BF8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8614A717E1BFE900B4BF8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC8614AF17E1BFE900B4BF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC8614B017E1BFE900B4BF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8614B217E1BFE900B4BF8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBarTest/NavigationBarTest-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBarTest/NavigationBarTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC8614B317E1BFE900B4BF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBarTest/NavigationBarTest-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBarTest/NavigationBarTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC86149317E1BFE800B4BF8B /* Build configuration list for PBXProject "NavigationBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8614AF17E1BFE900B4BF8B /* Debug */,
+				DC8614B017E1BFE900B4BF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8614B117E1BFE900B4BF8B /* Build configuration list for PBXNativeTarget "NavigationBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8614B217E1BFE900B4BF8B /* Debug */,
+				DC8614B317E1BFE900B4BF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC86149017E1BFE800B4BF8B /* Project object */;
+}

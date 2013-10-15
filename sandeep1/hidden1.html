@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script type=”text/javascript”> 
+function myFunction() 
+{ 
+	var body = document.body; 
+	bt = document.createElement('button'); 
+	bt.setAttribute('id','Button1'); 
+	bt.innerHTML="Button Generated"; 
+	bt.setAttribute('onclick','clickFunction();'); 
+	body.appendChild(bt); 
+} 
+
+function clickFunction() 
+{ 
+	document.getElementById('Button1').style.visibility = 'hidden'; 
+} 
+</script> 
+
+</head> 
+
+<body onload="myFunction();"> 
+
+<h1>Table Generation</h1> 
+
+</body> 
+</html>
+
