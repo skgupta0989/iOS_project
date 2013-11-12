@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C94E29A181FE04100A678B2 /* LocalDatabaseOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94E299181FE04100A678B2 /* LocalDatabaseOperations.m */; };
+		2C97D51B18227A690047896C /* uitabbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C97D51A18227A690047896C /* uitabbar_bg.png */; };
+		2CAC3CDF182A75DF00261D0C /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC3CDE182A75DF00261D0C /* icon_57x57.png */; };
+		2CF76867181D0762005A31BD /* FacebookSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF7683D181D0762005A31BD /* FacebookSDK */; };
+		2CF76868181D0762005A31BD /* FacebookSDKResources.bundle.README in Resources */ = {isa = PBXBuildFile; fileRef = 2CF76864181D0762005A31BD /* FacebookSDKResources.bundle.README */; };
+		2CF76869181D0762005A31BD /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CF76865181D0762005A31BD /* FBUserSettingsViewResources.bundle */; };
+		2CF76873181D58E5005A31BD /* DeleteCurrentEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF76872181D58E4005A31BD /* DeleteCurrentEmployee.m */; };
+		DC3109DB181A6D3500ABA373 /* DataAdapterEmployeeList.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3109DA181A6D3400ABA373 /* DataAdapterEmployeeList.m */; };
+		DC52A50C18192ADD006779F5 /* RemoteDataUpdation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC52A50B18192ADC006779F5 /* RemoteDataUpdation.m */; };
+		DC56766F181D25DC0000A86E /* LoginViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC56766D181D25DC0000A86E /* LoginViewController_iPad.xib */; };
+		DC567670181D25DC0000A86E /* LoginViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC56766E181D25DC0000A86E /* LoginViewController_iPhone.xib */; };
+		DC567676181D261F0000A86E /* ResetPasswordView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC567672181D261F0000A86E /* ResetPasswordView_iPad.xib */; };
+		DC567677181D261F0000A86E /* ResetPasswordViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC567673181D261F0000A86E /* ResetPasswordViewController_iPhone.xib */; };
+		DC567678181D261F0000A86E /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC567675181D261F0000A86E /* ResetPasswordViewController.m */; };
+		DC567680181D281E0000A86E /* EmployeeList_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC56767F181D281E0000A86E /* EmployeeList_iPad.xib */; };
+		DC567682181D284D0000A86E /* PersonalInfoView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC567681181D284D0000A86E /* PersonalInfoView_iPad.xib */; };
+		DC567684181D28710000A86E /* OfficialInfoVIew_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC567683181D28710000A86E /* OfficialInfoVIew_iPad.xib */; };
+		DC567686181D28910000A86E /* ContactInfoView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC567685181D28910000A86E /* ContactInfoView_iPad.xib */; };
+		DC82957517FEF0CE0068F892 /* EmployeeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DC82957317FEF0CE0068F892 /* EmployeeDetails.m */; };
+		DC82957617FEF0CE0068F892 /* EmployeeDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC82957417FEF0CE0068F892 /* EmployeeDetails.xib */; };
+		DC83F36F180D205300584235 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = DC83F36E180D205300584235 /* fb.png */; };
+		DC8432EF1806A3B300F4BFC2 /* EmployeeDetails_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8432EE1806A3B300F4BFC2 /* EmployeeDetails_iPad.xib */; };
+		DC843A7117FDBD7500AD1EAE /* IQKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC843A7017FDBD7500AD1EAE /* IQKeyBoardManager.m */; };
+		DC881751180E4F0100B7597F /* executive.png in Resources */ = {isa = PBXBuildFile; fileRef = DC881750180E4F0100B7597F /* executive.png */; };
+		DC881754180E662F00B7597F /* SynchronizationViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC881753180E662E00B7597F /* SynchronizationViewController_iPad.xib */; };
+		DC89828818028FDF004AB22A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DC89828718028FDF004AB22A /* Reachability.m */; };
+		DC89828C18029055004AB22A /* NetworkConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = DC89828B18029054004AB22A /* NetworkConnectivity.m */; };
+		DC89828E180290F1004AB22A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC89828D180290F1004AB22A /* SystemConfiguration.framework */; };
+		DC89829B1802D01E004AB22A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8982991802D018004AB22A /* LoginViewController.m */; };
+		DC8AFA9517FD932900E54737 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8AFA9417FD932800E54737 /* libsqlite3.dylib */; };
+		DC8AFA9E17FD9BC400E54737 /* app.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8AFA9D17FD9BC400E54737 /* app.png */; };
+		DC8AFAA217FDA34B00E54737 /* EmployeeList.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8AFAA017FDA34A00E54737 /* EmployeeList.m */; };
+		DC8AFAA317FDA34B00E54737 /* EmployeeList_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8AFAA117FDA34B00E54737 /* EmployeeList_iPhone.xib */; };
+		DC8BFF451801824700D0F464 /* ValidationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8BFF441801824600D0F464 /* ValidationClass.m */; };
+		DC8CAF0D1803CFB800CFBB56 /* SynchronizationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8CAF0C1803CFB800CFBB56 /* SynchronizationClass.m */; };
+		DC9198F11804114F009CC632 /* SynchronizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9198EF1804114F009CC632 /* SynchronizationViewController.m */; };
+		DC9198F21804114F009CC632 /* SynchronizationViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC9198F01804114F009CC632 /* SynchronizationViewController_iPhone.xib */; };
+		DC9E9DEB18152FD400DDD879 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E9DEA18152FD300DDD879 /* TabBarController.m */; };
+		DCA2E7C217FE7F56003DDF3E /* CreateViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA2E7C117FE7F55003DDF3E /* CreateViewController_iPad.xib */; };
+		DCA8C52018114F67003F3212 /* RemoteLoginCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8C51F18114F62003F3212 /* RemoteLoginCredential.m */; };
+		DCA8C5351811657C003F3212 /* PersonalInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8C5331811657B003F3212 /* PersonalInfoView.m */; };
+		DCA8C5361811657C003F3212 /* PersonalInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA8C5341811657C003F3212 /* PersonalInfoView.xib */; };
+		DCA8C53B18116594003F3212 /* OfficialInfoVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8C53918116593003F3212 /* OfficialInfoVIew.m */; };
+		DCA8C53C18116594003F3212 /* OfficialInfoVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA8C53A18116594003F3212 /* OfficialInfoVIew.xib */; };
+		DCA8C540181165AA003F3212 /* ContactInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA8C53E181165A9003F3212 /* ContactInfoView.m */; };
+		DCA8C541181165AA003F3212 /* ContactInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA8C53F181165A9003F3212 /* ContactInfoView.xib */; };
+		DCB655521805325F000DFD24 /* LoadRemoteDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB655511805325F000DFD24 /* LoadRemoteDataClass.m */; };
+		DCB8182717FD6BB400E6EE4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB8182617FD6BB400E6EE4A /* UIKit.framework */; };
+		DCB8182917FD6BB400E6EE4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB8182817FD6BB400E6EE4A /* Foundation.framework */; };
+		DCB8182B17FD6BB400E6EE4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB8182A17FD6BB400E6EE4A /* CoreGraphics.framework */; };
+		DCB8183117FD6BB400E6EE4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB8182F17FD6BB400E6EE4A /* InfoPlist.strings */; };
+		DCB8183317FD6BB400E6EE4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8183217FD6BB400E6EE4A /* main.m */; };
+		DCB8183717FD6BB400E6EE4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8183617FD6BB400E6EE4A /* AppDelegate.m */; };
+		DCB8183A17FD6BB400E6EE4A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8183917FD6BB400E6EE4A /* MenuViewController.m */; };
+		DCB8183D17FD6BB400E6EE4A /* MenuViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8183B17FD6BB400E6EE4A /* MenuViewController_iPhone.xib */; };
+		DCB8184017FD6BB400E6EE4A /* MenuViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8183E17FD6BB400E6EE4A /* MenuViewController_iPad.xib */; };
+		DCB8184917FD6F2500E6EE4A /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8184717FD6F2500E6EE4A /* CreateViewController.m */; };
+		DCB8184A17FD6F2500E6EE4A /* CreateViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8184817FD6F2500E6EE4A /* CreateViewController_iPhone.xib */; };
+		DCD7147A180ED82E0002F7E1 /* SampleLoginDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD71479180ED82B0002F7E1 /* SampleLoginDatabase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C94E298181FE04100A678B2 /* LocalDatabaseOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDatabaseOperations.h; sourceTree = "<group>"; };
+		2C94E299181FE04100A678B2 /* LocalDatabaseOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalDatabaseOperations.m; sourceTree = "<group>"; };
+		2C97D51A18227A690047896C /* uitabbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uitabbar_bg.png; sourceTree = "<group>"; };
+		2CAC3CDE182A75DF00261D0C /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		2CF76813181D0762005A31BD /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		2CF76814181D0762005A31BD /* FacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
+		2CF76815181D0762005A31BD /* FBAccessTokenData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAccessTokenData.h; sourceTree = "<group>"; };
+		2CF76816181D0762005A31BD /* FBAppCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppCall.h; sourceTree = "<group>"; };
+		2CF76817181D0762005A31BD /* FBAppEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppEvents.h; sourceTree = "<group>"; };
+		2CF76818181D0762005A31BD /* FBAppLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppLinkData.h; sourceTree = "<group>"; };
+		2CF76819181D0762005A31BD /* FBCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheDescriptor.h; sourceTree = "<group>"; };
+		2CF7681A181D0762005A31BD /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		2CF7681B181D0762005A31BD /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		2CF7681C181D0762005A31BD /* FBDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogs.h; sourceTree = "<group>"; };
+		2CF7681D181D0762005A31BD /* FBDialogsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogsData.h; sourceTree = "<group>"; };
+		2CF7681E181D0762005A31BD /* FBDialogsParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogsParams.h; sourceTree = "<group>"; };
+		2CF7681F181D0762005A31BD /* FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBError.h; sourceTree = "<group>"; };
+		2CF76820181D0762005A31BD /* FBErrorUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBErrorUtility.h; sourceTree = "<group>"; };
+		2CF76821181D0762005A31BD /* FBFrictionlessRecipientCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRecipientCache.h; sourceTree = "<group>"; };
+		2CF76822181D0762005A31BD /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		2CF76823181D0762005A31BD /* FBFriendPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewController.h; sourceTree = "<group>"; };
+		2CF76824181D0762005A31BD /* FBGraphLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphLocation.h; sourceTree = "<group>"; };
+		2CF76825181D0762005A31BD /* FBGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObject.h; sourceTree = "<group>"; };
+		2CF76826181D0762005A31BD /* FBGraphPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphPlace.h; sourceTree = "<group>"; };
+		2CF76827181D0762005A31BD /* FBGraphUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphUser.h; sourceTree = "<group>"; };
+		2CF76828181D0762005A31BD /* FBInsights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInsights.h; sourceTree = "<group>"; };
+		2CF76829181D0762005A31BD /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		2CF7682A181D0762005A31BD /* FBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginView.h; sourceTree = "<group>"; };
+		2CF7682B181D0762005A31BD /* FBNativeDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNativeDialogs.h; sourceTree = "<group>"; };
+		2CF7682C181D0762005A31BD /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
+		2CF7682D181D0762005A31BD /* FBOpenGraphActionShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphActionShareDialogParams.h; sourceTree = "<group>"; };
+		2CF7682E181D0762005A31BD /* FBOpenGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphObject.h; sourceTree = "<group>"; };
+		2CF7682F181D0762005A31BD /* FBPlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewController.h; sourceTree = "<group>"; };
+		2CF76830181D0762005A31BD /* FBProfilePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureView.h; sourceTree = "<group>"; };
+		2CF76831181D0762005A31BD /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		2CF76832181D0762005A31BD /* FBRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestConnection.h; sourceTree = "<group>"; };
+		2CF76833181D0762005A31BD /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		2CF76834181D0762005A31BD /* FBSessionManualTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionManualTokenCachingStrategy.h; sourceTree = "<group>"; };
+		2CF76835181D0762005A31BD /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
+		2CF76836181D0762005A31BD /* FBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettings.h; sourceTree = "<group>"; };
+		2CF76837181D0762005A31BD /* FBShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShareDialogParams.h; sourceTree = "<group>"; };
+		2CF76838181D0762005A31BD /* FBTestSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTestSession.h; sourceTree = "<group>"; };
+		2CF76839181D0762005A31BD /* FBUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUserSettingsViewController.h; sourceTree = "<group>"; };
+		2CF7683A181D0762005A31BD /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		2CF7683B181D0762005A31BD /* FBWebDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWebDialogs.h; sourceTree = "<group>"; };
+		2CF7683C181D0762005A31BD /* NSError+FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+FBError.h"; sourceTree = "<group>"; };
+		2CF7683D181D0762005A31BD /* FacebookSDK */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = FacebookSDK; sourceTree = "<group>"; };
+		2CF7683F181D0762005A31BD /* FacebookSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
+		2CF76840181D0762005A31BD /* FBAccessTokenData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAccessTokenData.h; sourceTree = "<group>"; };
+		2CF76841181D0762005A31BD /* FBAppCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppCall.h; sourceTree = "<group>"; };
+		2CF76842181D0762005A31BD /* FBAppEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppEvents.h; sourceTree = "<group>"; };
+		2CF76843181D0762005A31BD /* FBAppLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppLinkData.h; sourceTree = "<group>"; };
+		2CF76844181D0762005A31BD /* FBCacheDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCacheDescriptor.h; sourceTree = "<group>"; };
+		2CF76845181D0762005A31BD /* FBDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogs.h; sourceTree = "<group>"; };
+		2CF76846181D0762005A31BD /* FBDialogsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogsData.h; sourceTree = "<group>"; };
+		2CF76847181D0762005A31BD /* FBDialogsParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialogsParams.h; sourceTree = "<group>"; };
+		2CF76848181D0762005A31BD /* FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBError.h; sourceTree = "<group>"; };
+		2CF76849181D0762005A31BD /* FBErrorUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBErrorUtility.h; sourceTree = "<group>"; };
+		2CF7684A181D0762005A31BD /* FBFrictionlessRecipientCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRecipientCache.h; sourceTree = "<group>"; };
+		2CF7684B181D0762005A31BD /* FBFriendPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFriendPickerViewController.h; sourceTree = "<group>"; };
+		2CF7684C181D0762005A31BD /* FBGraphLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphLocation.h; sourceTree = "<group>"; };
+		2CF7684D181D0762005A31BD /* FBGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphObject.h; sourceTree = "<group>"; };
+		2CF7684E181D0762005A31BD /* FBGraphPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphPlace.h; sourceTree = "<group>"; };
+		2CF7684F181D0762005A31BD /* FBGraphUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGraphUser.h; sourceTree = "<group>"; };
+		2CF76850181D0762005A31BD /* FBInsights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInsights.h; sourceTree = "<group>"; };
+		2CF76851181D0762005A31BD /* FBLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginView.h; sourceTree = "<group>"; };
+		2CF76852181D0762005A31BD /* FBNativeDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNativeDialogs.h; sourceTree = "<group>"; };
+		2CF76853181D0762005A31BD /* FBOpenGraphAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphAction.h; sourceTree = "<group>"; };
+		2CF76854181D0762005A31BD /* FBOpenGraphActionShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphActionShareDialogParams.h; sourceTree = "<group>"; };
+		2CF76855181D0762005A31BD /* FBOpenGraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBOpenGraphObject.h; sourceTree = "<group>"; };
+		2CF76856181D0762005A31BD /* FBPlacePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBPlacePickerViewController.h; sourceTree = "<group>"; };
+		2CF76857181D0762005A31BD /* FBProfilePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfilePictureView.h; sourceTree = "<group>"; };
+		2CF76858181D0762005A31BD /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		2CF76859181D0762005A31BD /* FBRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequestConnection.h; sourceTree = "<group>"; };
+		2CF7685A181D0762005A31BD /* FBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSession.h; sourceTree = "<group>"; };
+		2CF7685B181D0762005A31BD /* FBSessionTokenCachingStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSessionTokenCachingStrategy.h; sourceTree = "<group>"; };
+		2CF7685C181D0762005A31BD /* FBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettings.h; sourceTree = "<group>"; };
+		2CF7685D181D0762005A31BD /* FBShareDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShareDialogParams.h; sourceTree = "<group>"; };
+		2CF7685E181D0762005A31BD /* FBTestSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTestSession.h; sourceTree = "<group>"; };
+		2CF7685F181D0762005A31BD /* FBUserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUserSettingsViewController.h; sourceTree = "<group>"; };
+		2CF76860181D0762005A31BD /* FBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		2CF76861181D0762005A31BD /* FBWebDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBWebDialogs.h; sourceTree = "<group>"; };
+		2CF76862181D0762005A31BD /* NSError+FBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+FBError.h"; sourceTree = "<group>"; };
+		2CF76864181D0762005A31BD /* FacebookSDKResources.bundle.README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FacebookSDKResources.bundle.README; sourceTree = "<group>"; };
+		2CF76865181D0762005A31BD /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		2CF76871181D58E4005A31BD /* DeleteCurrentEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteCurrentEmployee.h; sourceTree = "<group>"; };
+		2CF76872181D58E4005A31BD /* DeleteCurrentEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteCurrentEmployee.m; sourceTree = "<group>"; };
+		DC3109D9181A6D3400ABA373 /* DataAdapterEmployeeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAdapterEmployeeList.h; sourceTree = "<group>"; };
+		DC3109DA181A6D3400ABA373 /* DataAdapterEmployeeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAdapterEmployeeList.m; sourceTree = "<group>"; };
+		DC52A50A18192ADB006779F5 /* RemoteDataUpdation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteDataUpdation.h; sourceTree = "<group>"; };
+		DC52A50B18192ADC006779F5 /* RemoteDataUpdation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteDataUpdation.m; sourceTree = "<group>"; };
+		DC56766D181D25DC0000A86E /* LoginViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_iPad.xib; sourceTree = "<group>"; };
+		DC56766E181D25DC0000A86E /* LoginViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_iPhone.xib; sourceTree = "<group>"; };
+		DC567672181D261F0000A86E /* ResetPasswordView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordView_iPad.xib; sourceTree = "<group>"; };
+		DC567673181D261F0000A86E /* ResetPasswordViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordViewController_iPhone.xib; sourceTree = "<group>"; };
+		DC567674181D261F0000A86E /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		DC567675181D261F0000A86E /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		DC56767F181D281E0000A86E /* EmployeeList_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeList_iPad.xib; sourceTree = "<group>"; };
+		DC567681181D284D0000A86E /* PersonalInfoView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoView_iPad.xib; sourceTree = "<group>"; };
+		DC567683181D28710000A86E /* OfficialInfoVIew_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfficialInfoVIew_iPad.xib; sourceTree = "<group>"; };
+		DC567685181D28910000A86E /* ContactInfoView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactInfoView_iPad.xib; sourceTree = "<group>"; };
+		DC82957217FEF0CD0068F892 /* EmployeeDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetails.h; sourceTree = "<group>"; };
+		DC82957317FEF0CE0068F892 /* EmployeeDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetails.m; sourceTree = "<group>"; };
+		DC82957417FEF0CE0068F892 /* EmployeeDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeDetails.xib; sourceTree = "<group>"; };
+		DC82957717FEFF900068F892 /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
+		DC83F36E180D205300584235 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		DC8432EE1806A3B300F4BFC2 /* EmployeeDetails_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeDetails_iPad.xib; sourceTree = "<group>"; };
+		DC843A6F17FDBD7500AD1EAE /* IQKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyBoardManager.h; sourceTree = "<group>"; };
+		DC843A7017FDBD7500AD1EAE /* IQKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyBoardManager.m; sourceTree = "<group>"; };
+		DC881750180E4F0100B7597F /* executive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = executive.png; sourceTree = "<group>"; };
+		DC881753180E662E00B7597F /* SynchronizationViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SynchronizationViewController_iPad.xib; sourceTree = "<group>"; };
+		DC89828618028FDE004AB22A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DC89828718028FDF004AB22A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DC89828A18029054004AB22A /* NetworkConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConnectivity.h; sourceTree = "<group>"; };
+		DC89828B18029054004AB22A /* NetworkConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConnectivity.m; sourceTree = "<group>"; };
+		DC89828D180290F1004AB22A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DC8982981802D012004AB22A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DC8982991802D018004AB22A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DC8AFA9417FD932800E54737 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DC8AFA9D17FD9BC400E54737 /* app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app.png; sourceTree = "<group>"; };
+		DC8AFA9F17FDA34A00E54737 /* EmployeeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeList.h; sourceTree = "<group>"; };
+		DC8AFAA017FDA34A00E54737 /* EmployeeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeList.m; sourceTree = "<group>"; };
+		DC8AFAA117FDA34B00E54737 /* EmployeeList_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeList_iPhone.xib; sourceTree = "<group>"; };
+		DC8BFF431801824500D0F464 /* ValidationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationClass.h; sourceTree = "<group>"; };
+		DC8BFF441801824600D0F464 /* ValidationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationClass.m; sourceTree = "<group>"; };
+		DC8CAF0B1803CFB700CFBB56 /* SynchronizationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizationClass.h; sourceTree = "<group>"; };
+		DC8CAF0C1803CFB800CFBB56 /* SynchronizationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizationClass.m; sourceTree = "<group>"; };
+		DC9198EE1804114F009CC632 /* SynchronizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizationViewController.h; sourceTree = "<group>"; };
+		DC9198EF1804114F009CC632 /* SynchronizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizationViewController.m; sourceTree = "<group>"; };
+		DC9198F01804114F009CC632 /* SynchronizationViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SynchronizationViewController_iPhone.xib; sourceTree = "<group>"; };
+		DC9E9DE918152FD300DDD879 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		DC9E9DEA18152FD300DDD879 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		DCA2E7C117FE7F55003DDF3E /* CreateViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateViewController_iPad.xib; sourceTree = "<group>"; };
+		DCA8C51E18114F61003F3212 /* RemoteLoginCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteLoginCredential.h; sourceTree = "<group>"; };
+		DCA8C51F18114F62003F3212 /* RemoteLoginCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteLoginCredential.m; sourceTree = "<group>"; };
+		DCA8C5321811657B003F3212 /* PersonalInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoView.h; sourceTree = "<group>"; };
+		DCA8C5331811657B003F3212 /* PersonalInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoView.m; sourceTree = "<group>"; };
+		DCA8C5341811657C003F3212 /* PersonalInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoView.xib; sourceTree = "<group>"; };
+		DCA8C53818116593003F3212 /* OfficialInfoVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfficialInfoVIew.h; sourceTree = "<group>"; };
+		DCA8C53918116593003F3212 /* OfficialInfoVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfficialInfoVIew.m; sourceTree = "<group>"; };
+		DCA8C53A18116594003F3212 /* OfficialInfoVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfficialInfoVIew.xib; sourceTree = "<group>"; };
+		DCA8C53D181165A9003F3212 /* ContactInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInfoView.h; sourceTree = "<group>"; };
+		DCA8C53E181165A9003F3212 /* ContactInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInfoView.m; sourceTree = "<group>"; };
+		DCA8C53F181165A9003F3212 /* ContactInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactInfoView.xib; sourceTree = "<group>"; };
+		DCB655501805325F000DFD24 /* LoadRemoteDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadRemoteDataClass.h; sourceTree = "<group>"; };
+		DCB655511805325F000DFD24 /* LoadRemoteDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadRemoteDataClass.m; sourceTree = "<group>"; };
+		DCB8182217FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalEmployeeDBMSSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB8182617FD6BB400E6EE4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCB8182817FD6BB400E6EE4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCB8182A17FD6BB400E6EE4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCB8182E17FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniversalEmployeeDBMSSystem-Info.plist"; sourceTree = "<group>"; };
+		DCB8183017FD6BB400E6EE4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCB8183217FD6BB400E6EE4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCB8183417FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniversalEmployeeDBMSSystem-Prefix.pch"; sourceTree = "<group>"; };
+		DCB8183517FD6BB400E6EE4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCB8183617FD6BB400E6EE4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCB8183817FD6BB400E6EE4A /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		DCB8183917FD6BB400E6EE4A /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		DCB8183C17FD6BB400E6EE4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuViewController_iPhone.xib; sourceTree = "<group>"; };
+		DCB8183F17FD6BB400E6EE4A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuViewController_iPad.xib; sourceTree = "<group>"; };
+		DCB8184617FD6F2500E6EE4A /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
+		DCB8184717FD6F2500E6EE4A /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		DCB8184817FD6F2500E6EE4A /* CreateViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateViewController_iPhone.xib; sourceTree = "<group>"; };
+		DCD71478180ED8290002F7E1 /* SampleLoginDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLoginDatabase.h; sourceTree = "<group>"; };
+		DCD71479180ED82B0002F7E1 /* SampleLoginDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleLoginDatabase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB8181F17FD6BB400E6EE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC89828E180290F1004AB22A /* SystemConfiguration.framework in Frameworks */,
+				DC8AFA9517FD932900E54737 /* libsqlite3.dylib in Frameworks */,
+				DCB8182717FD6BB400E6EE4A /* UIKit.framework in Frameworks */,
+				DCB8182917FD6BB400E6EE4A /* Foundation.framework in Frameworks */,
+				DCB8182B17FD6BB400E6EE4A /* CoreGraphics.framework in Frameworks */,
+				2CF76867181D0762005A31BD /* FacebookSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CF76811181D0762005A31BD /* A */ = {
+			isa = PBXGroup;
+			children = (
+				2CF76812181D0762005A31BD /* DeprecatedHeaders */,
+				2CF7683D181D0762005A31BD /* FacebookSDK */,
+				2CF7683E181D0762005A31BD /* Headers */,
+				2CF76863181D0762005A31BD /* Resources */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		2CF76812181D0762005A31BD /* DeprecatedHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				2CF76813181D0762005A31BD /* Facebook.h */,
+				2CF76814181D0762005A31BD /* FacebookSDK.h */,
+				2CF76815181D0762005A31BD /* FBAccessTokenData.h */,
+				2CF76816181D0762005A31BD /* FBAppCall.h */,
+				2CF76817181D0762005A31BD /* FBAppEvents.h */,
+				2CF76818181D0762005A31BD /* FBAppLinkData.h */,
+				2CF76819181D0762005A31BD /* FBCacheDescriptor.h */,
+				2CF7681A181D0762005A31BD /* FBConnect.h */,
+				2CF7681B181D0762005A31BD /* FBDialog.h */,
+				2CF7681C181D0762005A31BD /* FBDialogs.h */,
+				2CF7681D181D0762005A31BD /* FBDialogsData.h */,
+				2CF7681E181D0762005A31BD /* FBDialogsParams.h */,
+				2CF7681F181D0762005A31BD /* FBError.h */,
+				2CF76820181D0762005A31BD /* FBErrorUtility.h */,
+				2CF76821181D0762005A31BD /* FBFrictionlessRecipientCache.h */,
+				2CF76822181D0762005A31BD /* FBFrictionlessRequestSettings.h */,
+				2CF76823181D0762005A31BD /* FBFriendPickerViewController.h */,
+				2CF76824181D0762005A31BD /* FBGraphLocation.h */,
+				2CF76825181D0762005A31BD /* FBGraphObject.h */,
+				2CF76826181D0762005A31BD /* FBGraphPlace.h */,
+				2CF76827181D0762005A31BD /* FBGraphUser.h */,
+				2CF76828181D0762005A31BD /* FBInsights.h */,
+				2CF76829181D0762005A31BD /* FBLoginDialog.h */,
+				2CF7682A181D0762005A31BD /* FBLoginView.h */,
+				2CF7682B181D0762005A31BD /* FBNativeDialogs.h */,
+				2CF7682C181D0762005A31BD /* FBOpenGraphAction.h */,
+				2CF7682D181D0762005A31BD /* FBOpenGraphActionShareDialogParams.h */,
+				2CF7682E181D0762005A31BD /* FBOpenGraphObject.h */,
+				2CF7682F181D0762005A31BD /* FBPlacePickerViewController.h */,
+				2CF76830181D0762005A31BD /* FBProfilePictureView.h */,
+				2CF76831181D0762005A31BD /* FBRequest.h */,
+				2CF76832181D0762005A31BD /* FBRequestConnection.h */,
+				2CF76833181D0762005A31BD /* FBSession.h */,
+				2CF76834181D0762005A31BD /* FBSessionManualTokenCachingStrategy.h */,
+				2CF76835181D0762005A31BD /* FBSessionTokenCachingStrategy.h */,
+				2CF76836181D0762005A31BD /* FBSettings.h */,
+				2CF76837181D0762005A31BD /* FBShareDialogParams.h */,
+				2CF76838181D0762005A31BD /* FBTestSession.h */,
+				2CF76839181D0762005A31BD /* FBUserSettingsViewController.h */,
+				2CF7683A181D0762005A31BD /* FBViewController.h */,
+				2CF7683B181D0762005A31BD /* FBWebDialogs.h */,
+				2CF7683C181D0762005A31BD /* NSError+FBError.h */,
+			);
+			path = DeprecatedHeaders;
+			sourceTree = "<group>";
+		};
+		2CF7683E181D0762005A31BD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				2CF7683F181D0762005A31BD /* FacebookSDK.h */,
+				2CF76840181D0762005A31BD /* FBAccessTokenData.h */,
+				2CF76841181D0762005A31BD /* FBAppCall.h */,
+				2CF76842181D0762005A31BD /* FBAppEvents.h */,
+				2CF76843181D0762005A31BD /* FBAppLinkData.h */,
+				2CF76844181D0762005A31BD /* FBCacheDescriptor.h */,
+				2CF76845181D0762005A31BD /* FBDialogs.h */,
+				2CF76846181D0762005A31BD /* FBDialogsData.h */,
+				2CF76847181D0762005A31BD /* FBDialogsParams.h */,
+				2CF76848181D0762005A31BD /* FBError.h */,
+				2CF76849181D0762005A31BD /* FBErrorUtility.h */,
+				2CF7684A181D0762005A31BD /* FBFrictionlessRecipientCache.h */,
+				2CF7684B181D0762005A31BD /* FBFriendPickerViewController.h */,
+				2CF7684C181D0762005A31BD /* FBGraphLocation.h */,
+				2CF7684D181D0762005A31BD /* FBGraphObject.h */,
+				2CF7684E181D0762005A31BD /* FBGraphPlace.h */,
+				2CF7684F181D0762005A31BD /* FBGraphUser.h */,
+				2CF76850181D0762005A31BD /* FBInsights.h */,
+				2CF76851181D0762005A31BD /* FBLoginView.h */,
+				2CF76852181D0762005A31BD /* FBNativeDialogs.h */,
+				2CF76853181D0762005A31BD /* FBOpenGraphAction.h */,
+				2CF76854181D0762005A31BD /* FBOpenGraphActionShareDialogParams.h */,
+				2CF76855181D0762005A31BD /* FBOpenGraphObject.h */,
+				2CF76856181D0762005A31BD /* FBPlacePickerViewController.h */,
+				2CF76857181D0762005A31BD /* FBProfilePictureView.h */,
+				2CF76858181D0762005A31BD /* FBRequest.h */,
+				2CF76859181D0762005A31BD /* FBRequestConnection.h */,
+				2CF7685A181D0762005A31BD /* FBSession.h */,
+				2CF7685B181D0762005A31BD /* FBSessionTokenCachingStrategy.h */,
+				2CF7685C181D0762005A31BD /* FBSettings.h */,
+				2CF7685D181D0762005A31BD /* FBShareDialogParams.h */,
+				2CF7685E181D0762005A31BD /* FBTestSession.h */,
+				2CF7685F181D0762005A31BD /* FBUserSettingsViewController.h */,
+				2CF76860181D0762005A31BD /* FBViewController.h */,
+				2CF76861181D0762005A31BD /* FBWebDialogs.h */,
+				2CF76862181D0762005A31BD /* NSError+FBError.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		2CF76863181D0762005A31BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CF76864181D0762005A31BD /* FacebookSDKResources.bundle.README */,
+				2CF76865181D0762005A31BD /* FBUserSettingsViewResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCB8181717FD6BB300E6EE4A = {
+			isa = PBXGroup;
+			children = (
+				2CAC3CDE182A75DF00261D0C /* icon_57x57.png */,
+				2CF76811181D0762005A31BD /* A */,
+				DC89828D180290F1004AB22A /* SystemConfiguration.framework */,
+				DC8AFA9417FD932800E54737 /* libsqlite3.dylib */,
+				DCB8182C17FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem */,
+				DCB8182517FD6BB400E6EE4A /* Frameworks */,
+				DCB8182317FD6BB400E6EE4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB8182317FD6BB400E6EE4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB8182217FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB8182517FD6BB400E6EE4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB8182617FD6BB400E6EE4A /* UIKit.framework */,
+				DCB8182817FD6BB400E6EE4A /* Foundation.framework */,
+				DCB8182A17FD6BB400E6EE4A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB8182C17FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem */ = {
+			isa = PBXGroup;
+			children = (
+				DC881750180E4F0100B7597F /* executive.png */,
+				DC83F36E180D205300584235 /* fb.png */,
+				2C97D51A18227A690047896C /* uitabbar_bg.png */,
+				DC843A6F17FDBD7500AD1EAE /* IQKeyBoardManager.h */,
+				DC843A7017FDBD7500AD1EAE /* IQKeyBoardManager.m */,
+				DCB8183517FD6BB400E6EE4A /* AppDelegate.h */,
+				DCB8183617FD6BB400E6EE4A /* AppDelegate.m */,
+				DC8982981802D012004AB22A /* LoginViewController.h */,
+				DC8982991802D018004AB22A /* LoginViewController.m */,
+				DC56766D181D25DC0000A86E /* LoginViewController_iPad.xib */,
+				DC56766E181D25DC0000A86E /* LoginViewController_iPhone.xib */,
+				DC567674181D261F0000A86E /* ResetPasswordViewController.h */,
+				DC567675181D261F0000A86E /* ResetPasswordViewController.m */,
+				DC567672181D261F0000A86E /* ResetPasswordView_iPad.xib */,
+				DC567673181D261F0000A86E /* ResetPasswordViewController_iPhone.xib */,
+				DCB8183817FD6BB400E6EE4A /* MenuViewController.h */,
+				DCB8183917FD6BB400E6EE4A /* MenuViewController.m */,
+				DCB8183B17FD6BB400E6EE4A /* MenuViewController_iPhone.xib */,
+				DCB8183E17FD6BB400E6EE4A /* MenuViewController_iPad.xib */,
+				DCB8184617FD6F2500E6EE4A /* CreateViewController.h */,
+				DCB8184717FD6F2500E6EE4A /* CreateViewController.m */,
+				DCB8184817FD6F2500E6EE4A /* CreateViewController_iPhone.xib */,
+				DCA2E7C117FE7F55003DDF3E /* CreateViewController_iPad.xib */,
+				DC8AFA9F17FDA34A00E54737 /* EmployeeList.h */,
+				DC8AFAA017FDA34A00E54737 /* EmployeeList.m */,
+				DC8AFAA117FDA34B00E54737 /* EmployeeList_iPhone.xib */,
+				DC56767F181D281E0000A86E /* EmployeeList_iPad.xib */,
+				DC3109D9181A6D3400ABA373 /* DataAdapterEmployeeList.h */,
+				DC3109DA181A6D3400ABA373 /* DataAdapterEmployeeList.m */,
+				DC9E9DE918152FD300DDD879 /* TabBarController.h */,
+				DC9E9DEA18152FD300DDD879 /* TabBarController.m */,
+				DCA8C5321811657B003F3212 /* PersonalInfoView.h */,
+				DCA8C5331811657B003F3212 /* PersonalInfoView.m */,
+				DCA8C5341811657C003F3212 /* PersonalInfoView.xib */,
+				DC567681181D284D0000A86E /* PersonalInfoView_iPad.xib */,
+				DCA8C53818116593003F3212 /* OfficialInfoVIew.h */,
+				DCA8C53918116593003F3212 /* OfficialInfoVIew.m */,
+				DCA8C53A18116594003F3212 /* OfficialInfoVIew.xib */,
+				DC567683181D28710000A86E /* OfficialInfoVIew_iPad.xib */,
+				DCA8C53D181165A9003F3212 /* ContactInfoView.h */,
+				DCA8C53E181165A9003F3212 /* ContactInfoView.m */,
+				DCA8C53F181165A9003F3212 /* ContactInfoView.xib */,
+				DC567685181D28910000A86E /* ContactInfoView_iPad.xib */,
+				DC82957217FEF0CD0068F892 /* EmployeeDetails.h */,
+				DC82957317FEF0CE0068F892 /* EmployeeDetails.m */,
+				DC8432EE1806A3B300F4BFC2 /* EmployeeDetails_iPad.xib */,
+				DC82957417FEF0CE0068F892 /* EmployeeDetails.xib */,
+				DC9198EE1804114F009CC632 /* SynchronizationViewController.h */,
+				DC9198EF1804114F009CC632 /* SynchronizationViewController.m */,
+				DC9198F01804114F009CC632 /* SynchronizationViewController_iPhone.xib */,
+				DC881753180E662E00B7597F /* SynchronizationViewController_iPad.xib */,
+				2C94E298181FE04100A678B2 /* LocalDatabaseOperations.h */,
+				2C94E299181FE04100A678B2 /* LocalDatabaseOperations.m */,
+				DCD71478180ED8290002F7E1 /* SampleLoginDatabase.h */,
+				DCD71479180ED82B0002F7E1 /* SampleLoginDatabase.m */,
+				DCA8C51E18114F61003F3212 /* RemoteLoginCredential.h */,
+				DCA8C51F18114F62003F3212 /* RemoteLoginCredential.m */,
+				DC89828A18029054004AB22A /* NetworkConnectivity.h */,
+				DC89828B18029054004AB22A /* NetworkConnectivity.m */,
+				DC8CAF0B1803CFB700CFBB56 /* SynchronizationClass.h */,
+				DC8CAF0C1803CFB800CFBB56 /* SynchronizationClass.m */,
+				DC52A50A18192ADB006779F5 /* RemoteDataUpdation.h */,
+				DC52A50B18192ADC006779F5 /* RemoteDataUpdation.m */,
+				2CF76871181D58E4005A31BD /* DeleteCurrentEmployee.h */,
+				2CF76872181D58E4005A31BD /* DeleteCurrentEmployee.m */,
+				DCB655501805325F000DFD24 /* LoadRemoteDataClass.h */,
+				DCB655511805325F000DFD24 /* LoadRemoteDataClass.m */,
+				DC82957717FEFF900068F892 /* CWLSynthesizeSingleton.h */,
+				DC89828618028FDE004AB22A /* Reachability.h */,
+				DC89828718028FDF004AB22A /* Reachability.m */,
+				DCB8182D17FD6BB400E6EE4A /* Supporting Files */,
+				DC8BFF431801824500D0F464 /* ValidationClass.h */,
+				DC8BFF441801824600D0F464 /* ValidationClass.m */,
+			);
+			path = UniversalEmployeeDBMSSystem;
+			sourceTree = "<group>";
+		};
+		DCB8182D17FD6BB400E6EE4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB8182E17FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem-Info.plist */,
+				DCB8182F17FD6BB400E6EE4A /* InfoPlist.strings */,
+				DC8AFA9D17FD9BC400E54737 /* app.png */,
+				DCB8183217FD6BB400E6EE4A /* main.m */,
+				DCB8183417FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB8182117FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB8184317FD6BB400E6EE4A /* Build configuration list for PBXNativeTarget "UniversalEmployeeDBMSSystem" */;
+			buildPhases = (
+				DCB8181E17FD6BB400E6EE4A /* Sources */,
+				DCB8181F17FD6BB400E6EE4A /* Frameworks */,
+				DCB8182017FD6BB400E6EE4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversalEmployeeDBMSSystem;
+			productName = UniversalEmployeeDBMSSystem;
+			productReference = DCB8182217FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB8181917FD6BB300E6EE4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DCB8181C17FD6BB300E6EE4A /* Build configuration list for PBXProject "UniversalEmployeeDBMSSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCB8181717FD6BB300E6EE4A;
+			productRefGroup = DCB8182317FD6BB400E6EE4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB8182117FD6BB400E6EE4A /* UniversalEmployeeDBMSSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB8182017FD6BB400E6EE4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB8183117FD6BB400E6EE4A /* InfoPlist.strings in Resources */,
+				DCB8183D17FD6BB400E6EE4A /* MenuViewController_iPhone.xib in Resources */,
+				DCB8184017FD6BB400E6EE4A /* MenuViewController_iPad.xib in Resources */,
+				DCB8184A17FD6F2500E6EE4A /* CreateViewController_iPhone.xib in Resources */,
+				DC8AFA9E17FD9BC400E54737 /* app.png in Resources */,
+				DC8AFAA317FDA34B00E54737 /* EmployeeList_iPhone.xib in Resources */,
+				DCA2E7C217FE7F56003DDF3E /* CreateViewController_iPad.xib in Resources */,
+				DC82957617FEF0CE0068F892 /* EmployeeDetails.xib in Resources */,
+				DC9198F21804114F009CC632 /* SynchronizationViewController_iPhone.xib in Resources */,
+				DC8432EF1806A3B300F4BFC2 /* EmployeeDetails_iPad.xib in Resources */,
+				DC83F36F180D205300584235 /* fb.png in Resources */,
+				DC881751180E4F0100B7597F /* executive.png in Resources */,
+				DC881754180E662F00B7597F /* SynchronizationViewController_iPad.xib in Resources */,
+				DCA8C5361811657C003F3212 /* PersonalInfoView.xib in Resources */,
+				DCA8C53C18116594003F3212 /* OfficialInfoVIew.xib in Resources */,
+				DCA8C541181165AA003F3212 /* ContactInfoView.xib in Resources */,
+				2CF76868181D0762005A31BD /* FacebookSDKResources.bundle.README in Resources */,
+				2CF76869181D0762005A31BD /* FBUserSettingsViewResources.bundle in Resources */,
+				DC56766F181D25DC0000A86E /* LoginViewController_iPad.xib in Resources */,
+				DC567670181D25DC0000A86E /* LoginViewController_iPhone.xib in Resources */,
+				DC567676181D261F0000A86E /* ResetPasswordView_iPad.xib in Resources */,
+				DC567677181D261F0000A86E /* ResetPasswordViewController_iPhone.xib in Resources */,
+				DC567680181D281E0000A86E /* EmployeeList_iPad.xib in Resources */,
+				DC567682181D284D0000A86E /* PersonalInfoView_iPad.xib in Resources */,
+				DC567684181D28710000A86E /* OfficialInfoVIew_iPad.xib in Resources */,
+				DC567686181D28910000A86E /* ContactInfoView_iPad.xib in Resources */,
+				2C97D51B18227A690047896C /* uitabbar_bg.png in Resources */,
+				2CAC3CDF182A75DF00261D0C /* icon_57x57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB8181E17FD6BB400E6EE4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB8183317FD6BB400E6EE4A /* main.m in Sources */,
+				DCB8183717FD6BB400E6EE4A /* AppDelegate.m in Sources */,
+				DCB8183A17FD6BB400E6EE4A /* MenuViewController.m in Sources */,
+				DCB8184917FD6F2500E6EE4A /* CreateViewController.m in Sources */,
+				DC8AFAA217FDA34B00E54737 /* EmployeeList.m in Sources */,
+				DC843A7117FDBD7500AD1EAE /* IQKeyBoardManager.m in Sources */,
+				DC82957517FEF0CE0068F892 /* EmployeeDetails.m in Sources */,
+				DC8BFF451801824700D0F464 /* ValidationClass.m in Sources */,
+				DC89828818028FDF004AB22A /* Reachability.m in Sources */,
+				DC89828C18029055004AB22A /* NetworkConnectivity.m in Sources */,
+				DC89829B1802D01E004AB22A /* LoginViewController.m in Sources */,
+				DC8CAF0D1803CFB800CFBB56 /* SynchronizationClass.m in Sources */,
+				DC9198F11804114F009CC632 /* SynchronizationViewController.m in Sources */,
+				DCB655521805325F000DFD24 /* LoadRemoteDataClass.m in Sources */,
+				DCD7147A180ED82E0002F7E1 /* SampleLoginDatabase.m in Sources */,
+				DCA8C52018114F67003F3212 /* RemoteLoginCredential.m in Sources */,
+				DCA8C5351811657C003F3212 /* PersonalInfoView.m in Sources */,
+				DCA8C53B18116594003F3212 /* OfficialInfoVIew.m in Sources */,
+				DCA8C540181165AA003F3212 /* ContactInfoView.m in Sources */,
+				DC9E9DEB18152FD400DDD879 /* TabBarController.m in Sources */,
+				DC52A50C18192ADD006779F5 /* RemoteDataUpdation.m in Sources */,
+				DC3109DB181A6D3500ABA373 /* DataAdapterEmployeeList.m in Sources */,
+				DC567678181D261F0000A86E /* ResetPasswordViewController.m in Sources */,
+				2CF76873181D58E5005A31BD /* DeleteCurrentEmployee.m in Sources */,
+				2C94E29A181FE04100A678B2 /* LocalDatabaseOperations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCB8182F17FD6BB400E6EE4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB8183017FD6BB400E6EE4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCB8183B17FD6BB400E6EE4A /* MenuViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB8183C17FD6BB400E6EE4A /* en */,
+			);
+			name = MenuViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DCB8183E17FD6BB400E6EE4A /* MenuViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB8183F17FD6BB400E6EE4A /* en */,
+			);
+			name = MenuViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB8184117FD6BB400E6EE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prabhu Krishnamurthy (6AYHM27QC4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prabhu Krishnamurthy (6AYHM27QC4)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "EFDC7826-C010-4811-A8AB-CC61BB71AC8C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EFDC7826-C010-4811-A8AB-CC61BB71AC8C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		DCB8184217FD6BB400E6EE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Prabhu Krishnamurthy (6AYHM27QC4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prabhu Krishnamurthy (6AYHM27QC4)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EFDC7826-C010-4811-A8AB-CC61BB71AC8C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EFDC7826-C010-4811-A8AB-CC61BB71AC8C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB8184417FD6BB400E6EE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniversalEmployeeDBMSSystem/UniversalEmployeeDBMSSystem-Prefix.pch";
+				INFOPLIST_FILE = "UniversalEmployeeDBMSSystem/UniversalEmployeeDBMSSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A\"",
+					"\"$(SRCROOT)/A copy\"",
+					"\"$(SRCROOT)/A\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCB8184517FD6BB400E6EE4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniversalEmployeeDBMSSystem/UniversalEmployeeDBMSSystem-Prefix.pch";
+				INFOPLIST_FILE = "UniversalEmployeeDBMSSystem/UniversalEmployeeDBMSSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A\"",
+					"\"$(SRCROOT)/A copy\"",
+					"\"$(SRCROOT)/A\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB8181C17FD6BB300E6EE4A /* Build configuration list for PBXProject "UniversalEmployeeDBMSSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB8184117FD6BB400E6EE4A /* Debug */,
+				DCB8184217FD6BB400E6EE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB8184317FD6BB400E6EE4A /* Build configuration list for PBXNativeTarget "UniversalEmployeeDBMSSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB8184417FD6BB400E6EE4A /* Debug */,
+				DCB8184517FD6BB400E6EE4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB8181917FD6BB300E6EE4A /* Project object */;
+}
