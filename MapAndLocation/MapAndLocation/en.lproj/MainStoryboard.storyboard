@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5E2-Ln-VYE">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="423" id="uGU-wI-YuI"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="jQB-W2-spq"/>
+                                </connections>
+                            </mapView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1H-hf-97o">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="YQf-e9-jBX"/>
+                                    <constraint firstAttribute="width" constant="183" id="ggw-x0-bdO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voX-dv-ZHj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="EAb-hD-ge5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQg-1Y-MOE">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="sL2-5e-H1u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedAdd:" destination="2" eventType="touchUpInside" id="9Yq-eD-vvj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BK3-MT-amH">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="qry-HE-vKz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Remove">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedRemove:" destination="2" eventType="touchUpInside" id="nIr-LQ-t0O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggu-OY-wYi">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="EdQ-l2-aLC"/>
+                                    <constraint firstAttribute="width" constant="271" id="yGK-2q-p5J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ggu-OY-wYi" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="12j-DT-XFI"/>
+                            <constraint firstItem="l1H-hf-97o" firstAttribute="top" secondItem="3" secondAttribute="top" constant="2" id="2R1-sM-1y1"/>
+                            <constraint firstItem="l1H-hf-97o" firstAttribute="top" secondItem="QQg-1Y-MOE" secondAttribute="top" type="default" id="2ap-Wg-kCO"/>
+                            <constraint firstItem="BK3-MT-amH" firstAttribute="baseline" secondItem="voX-dv-ZHj" secondAttribute="baseline" type="default" id="7hR-36-Gcw"/>
+                            <constraint firstAttribute="trailing" secondItem="BK3-MT-amH" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8Yc-IK-Qfl"/>
+                            <constraint firstItem="5E2-Ln-VYE" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Ald-Qw-kEZ"/>
+                            <constraint firstItem="l1H-hf-97o" firstAttribute="bottom" secondItem="QQg-1Y-MOE" secondAttribute="bottom" type="default" id="BKv-vk-Q87"/>
+                            <constraint firstItem="BK3-MT-amH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="40" id="FE3-G3-re6"/>
+                            <constraint firstItem="5E2-Ln-VYE" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="LeV-4e-ao0"/>
+                            <constraint firstAttribute="trailing" secondItem="QQg-1Y-MOE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Tkb-PN-Ymu"/>
+                            <constraint firstItem="voX-dv-ZHj" firstAttribute="leading" secondItem="l1H-hf-97o" secondAttribute="leading" type="default" id="UVn-S3-SKC"/>
+                            <constraint firstItem="voX-dv-ZHj" firstAttribute="top" secondItem="l1H-hf-97o" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ask-vX-r22"/>
+                            <constraint firstItem="QQg-1Y-MOE" firstAttribute="leading" secondItem="BK3-MT-amH" secondAttribute="leading" type="default" id="c2f-6C-VVx"/>
+                            <constraint firstItem="5E2-Ln-VYE" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="cL1-yr-kdd"/>
+                            <constraint firstItem="voX-dv-ZHj" firstAttribute="trailing" secondItem="l1H-hf-97o" secondAttribute="trailing" type="default" id="dxx-cl-x5Y"/>
+                            <constraint firstItem="ggu-OY-wYi" firstAttribute="leading" secondItem="voX-dv-ZHj" secondAttribute="leading" type="default" id="gF6-Wg-4aW"/>
+                            <constraint firstItem="QQg-1Y-MOE" firstAttribute="baseline" secondItem="l1H-hf-97o" secondAttribute="baseline" type="default" id="hFC-Uq-aD9"/>
+                            <constraint firstItem="ggu-OY-wYi" firstAttribute="top" secondItem="3" secondAttribute="top" constant="74" id="rZC-23-9J4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="address" destination="ggu-OY-wYi" id="yas-q1-cfo"/>
+                        <outlet property="latitude" destination="l1H-hf-97o" id="ohL-JE-PLh"/>
+                        <outlet property="longitude" destination="voX-dv-ZHj" id="u3B-XT-Jmp"/>
+                        <outlet property="mapView" destination="5E2-Ln-VYE" id="40b-I1-Dio"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
